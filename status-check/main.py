@@ -20,7 +20,7 @@ def check_instance_status():
     print("------------###------------")
 
 # Runs the status check every 5 minutes
-schedule.every(5).seconds.do(check_instance_status) 
+schedule.every(5).minutes.do(check_instance_status) 
 
 while True:
     schedule.run_pending()
