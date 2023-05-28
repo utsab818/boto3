@@ -2,6 +2,7 @@
 - AWS CLI
 - Python
 - Boto3
+- Schedule
 
 ## AWS CLI
 REFER THIS PAGE FOR AWS-CLI SETUP
@@ -17,6 +18,12 @@ https://www.python.org/downloads/
 
 `
 pip install boto3
+`
+
+## SCHEDULE
+
+`
+pip install schedule
 `
 
 ## Configure aws cli
