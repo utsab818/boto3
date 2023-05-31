@@ -12,4 +12,3 @@ for vpc in vpcs:
     cidr_block_assoc_sets = (vpc["CidrBlockAssociationSet"])
     for assoc_set in cidr_block_assoc_sets:
         print(assoc_set["CidrBlockState"])
-
