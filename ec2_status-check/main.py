@@ -2,6 +2,7 @@
 import boto3
 import schedule
 
+
 # Client and resource initialization
 ec2_client = boto3.client('ec2')
 ec2_resource = boto3.resource('ec2')
